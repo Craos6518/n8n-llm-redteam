@@ -1,0 +1,31 @@
+# Secretos y credenciales
+.env
+.env.local
+*.json.gpg
+
+# Datos persistentes (bind mounts)
+data/
+
+# Configuración local de Claude
+.claude/
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Docker
+docker-compose.override.yml
